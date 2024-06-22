@@ -23,26 +23,28 @@ const NavList = () => {
 
     return (
         <nav className="nav container">
-            <div className="" id="nav-menu">
+            <div className={`nav__menu ${showMenu ? "show-menu" : ""}`}>
                 <ul className="nav nav__list">
                 {
                     menuItems.map((item) => (
                         <li className="nav__item" key={item}>
-                            <NavLink to={`/${item}`} className="nav__link" activeClassName="active" onClick={closeMenuOnMobile}>
+                            <NavLink to={`/${item}`} className="nav__link" activeclassname="active" 
+                            onClick={closeMenuOnMobile}>
                             {item}
                             </NavLink>
                         </li>
                     ))
                 }
                 </ul>
-            </div>
-            <div className="nav__close" id="nav-close" onClick=     {toggleMenu}>
-              <IoClose />
+
+                <div className="nav__close" id="nav-close" onClick={toggleMenu}>
+                    <IoClose />
+                </div>
             </div>
    
-          <div className="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
-            <IoMenu />
-          </div>  
+            <div className="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
+                <IoMenu />
+            </div>  
         </nav>
             
     );
