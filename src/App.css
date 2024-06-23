@@ -1,81 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600;700&display=swap");
-/*#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+main.mx-3{
+  min-height: 500px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.header{
+  padding: 10px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}*/
-
-/* Custom Portfolio Styles */
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
- }
- 
- :root {
-  --header-height: 3.5rem;
-  --first-color: hsl(28, 88%, 62%);
-  --title-color: hsl(0, 0%, 95%);
-  --text-color: hsl(0, 0%, 75%);
-  --body-color: hsl(0, 0%, 6%);
-  --body-font: "Montserrat", sans-serif;
-  --second-font: "Dancing Script", cursive;
-  --h2-font-size: 1.25rem;
-  --small-font-size: 0.813rem;
-  --font-semi-bold: 600;
-  --z-tooltip: 10;
-  --z-fixed: 100;
- }
-
- body {
-  background-color: var(--body-color);
-  color: var(--text-color);
-  font-family: var(--body-font);
- }
- 
- ul {
-  list-style: none;
- }
- 
- a {
-  text-decoration: none;
- }
- 

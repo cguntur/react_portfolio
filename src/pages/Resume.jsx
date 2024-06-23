@@ -1,17 +1,42 @@
+import resumePdf from '../assets/files/chandrika_sista.pdf';
 function Resume() {
+
+  const skills = ["PHP", "mySQL", "JavaScript", "React", "Node Js", "Mongodb", "Express js", "WordPress", "Git"]; 
+
     return (
         <div>
-          <h1>Resume Page</h1>
-          <p>
-            Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-            Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-            mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-            lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-            imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-            in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-          </p>
+          <section name="resume_intro">
+            <h1>Chandrika Sista</h1>
+            <h2>Full Stack Web Developer</h2>
+            <p>408-752-1183</p>
+            <p>cguntur@gmail.com</p>
+            <p>I am a full stack developer with experience in PHP, JavaScript, jQuery, Node js, React and Mern.</p>
+          </section>
+          <section>
+            <h3>Skills</h3>
+            <h4>Programming Languages and Tools:</h4>
+            <ul>
+              {skills.map((item) => (
+                  <li className="nav__item" key={item}>
+                      {item}
+                  </li>
+              ))}
+            </ul>
+          </section>
+          <section>
+            <h4>Core Competencies</h4>
+            <ul>
+              <li>Building mobile first websites and apps</li>
+              <li>Responsive design</li>
+              <li>Cross browser testing</li>
+            </ul>
+          </section>
+
+          <a href={resumePdf} download="chandrika_sista" target='_blank'>
+             <button className="">Download Resume</button>
+        </a>
         </div>
-      );
+    );
 }
 
 export default Resume;
