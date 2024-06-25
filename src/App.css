@@ -1,8 +1,14 @@
 
-main.mx-3{
-  min-height: 500px;
+:root{
+  --dark: #0D0D0D;
+  --light: #E8E0CE;
+  --navlink-color: #D4303D;
+  --accent-color: #0F6926;
+  --sec-link-color: #D9B573;
 }
 
-.header{
-  padding: 10px;
+main.mx-3{
+  min-height: 500px;
+  display: flex;
+  background-color: var(--light);
 }

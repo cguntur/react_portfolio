@@ -56,7 +56,11 @@ function ContactForm() {
     const handleFormSubmit = (e) => {
         e.preventDefault();
 
-        alert(`Hello ${firstName} ${lastName}`);
+        alert(`Hello ${firstName} ${lastName}, your message was sent successfully.`);
+        setFirstName("");
+        setlastName("");
+        setEmail("");
+        setMessage("");
     };
 
     return (
