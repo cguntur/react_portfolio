@@ -12,7 +12,7 @@ function Resume() {
             <p>cguntur@gmail.com</p>
             <p>I am a full stack developer with experience in PHP, JavaScript, jQuery, Node js, React and Mern.</p>
           </section>
-          <section>
+          <section className="resume_section">
             <h3>Skills</h3>
             <h4>Programming Languages and Tools:</h4>
             <ul>
@@ -23,7 +23,7 @@ function Resume() {
               ))}
             </ul>
           </section>
-          <section>
+          <section className="resume_section">
             <h4>Core Competencies</h4>
             <ul>
               <li>Building mobile first websites and apps</li>
@@ -32,7 +32,7 @@ function Resume() {
             </ul>
           </section>
 
-          <a href={resumePdf} download="chandrika_sista" target='_blank'>
+          <a className="res_download_button" href={resumePdf} download="chandrika_sista" target='_blank'>
              <button className="">Download Resume</button>
         </a>
         </div>

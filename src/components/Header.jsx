@@ -7,7 +7,7 @@ function Header() {
     //const currentPage = useLocation().pathname;
     return (
         <div className="header">
-            <h1 className="title"><a href="/">My Portfolio</a></h1>
+            <h1 className="title"><a href="/">Chandrika Sista</a></h1>
             <NavList />
         </div>
     )
