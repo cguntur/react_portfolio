@@ -64,7 +64,7 @@ function ContactForm() {
     };
 
     return (
-        <div className="container text-center">
+        <div className="">
             <form className="form" onSubmit={handleFormSubmit}>
                 <div className="form-group">
                     <input

@@ -1,8 +1,24 @@
-# React + Vite
+# A simple portfolio using React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Portfolio site that allows me to showcase my projects and skills
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- The code can be downloaded to you local machine. You need to install the packages using `npm install ` and then use `npm run dev` to start the site in your local host
+- The site is responsive
+- The portfolio page shows a few projects and new ones can be added without compromising on the design
+- Users can use the contact form to send a message
+- The contact form checks for empty fields and the email validation makes sure the users enter a valid email
+
+## Installation Instructions
+
+- Download the files from the repo
+- Run `npm install` to install the necessary dependencies
+- Run `npm run dev` and go to site on the local host
+
+## Website Preview
+<img src="./public/images/gcsdesign_blog.png" alt="Gcsdesign Blog Screenshot" width="400"/>
+
+## Working Example
+[View the website here](https://gcsdesign-blog-43fec2242915.herokuapp.com/)
+

@@ -45,11 +45,17 @@ body {
   margin: 0;
   display: flex;
   /*place-items: center;*/
-  min-width: 320px;
   min-height: 100vh;
   background-color: var(--light);
   display: flex;
   flex-direction: column;
+  min-width: 100%;
+}
+
+@media screen and (min-width:768px){
+  body{
+    min-width: 320px;
+  }
 }
 
 h1 {
@@ -81,7 +87,12 @@ button:focus-visible {
 .header{
   padding: 20px;
   flex-basis: 15%;
-  text-align: center;
+}
+
+@media screen and (min-width: 768px){
+  .header{
+    text-align: center;
+  }
 }
 
 .header h1 a{
@@ -162,6 +173,7 @@ input.form-control:focus-visible, textarea.form-control:focus-visible{
 .project img{
   max-width: 250px;
   height: auto;
+  min-width: 100%;
 }
 
 @media screen and (min-width: 768px){
