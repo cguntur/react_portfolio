@@ -17,7 +17,7 @@
 - Run `npm run dev` and go to site on the local host
 
 ## Website Preview
-<img src="./public/images/gcsdesign_blog.png" alt="Gcsdesign Blog Screenshot" width="400"/>
+<img src="./src/assets/images/custom_react_portfolio.png" alt="Custom React Portfolio Screenshot" width="400"/>
 
 ## Working Example
 [View the website here](https://gcsdesign-blog-43fec2242915.herokuapp.com/)
