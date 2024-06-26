@@ -8,6 +8,7 @@ function Project(props){
         <div className="image_wrapper"><img src={data.image} /></div>
         <h3>{data.title}</h3>
         <p>{data.description}</p>
+        <p><a target="_blank" href={data.deployLink}>View Project</a></p>
         <p><a target="_blank" href={data.githubLink}>Github Link</a></p>
       </div>
     ))
