@@ -5,15 +5,9 @@ import groove_guide_one from "../assets/images/groove_guide_1.png";
 import groove_guide_two from "../assets/images/groove_guide_database.png";
 import wp_cat_dropdown from "../assets/images/wp_cat_dropdown.png";
 import jate from "../assets/images/jate.png";
+import event_management from "../assets/images/event_management.png";
 
 const projects = [
-    {
-        title: "Chamber Dashboard",
-        description: "Business Management plugins for WordPress",
-        image: cd_image,
-        githubLink: "https://github.com/orgs/Chamber-Dashboard/repositories",
-        deployLink: "https://wordpress.org/plugins/chamber-dashboard-business-directory/",
-    },
     {
         title: "WP Category Dropdown",
         description: "Category dropdown plugin for WordPress",
@@ -43,12 +37,26 @@ const projects = [
         deployLink: "https://gcs-pwa-jate-ce0fb1c34c89.herokuapp.com/",
     },
     {
+        title: "Event Management using React & GraphQl",
+        description: "The website serves as a community events website where users can view all the events and save the events they would like go or learn more about.",
+        image: event_management,
+        githubLink: "https://github.com/kimberlyrobinson11122/Get-Stubs",
+        deployLink: "https://get-stubs-32478408ec54.herokuapp.com/",
+    },
+    {
         title: "Weather Dashboard",
         description: "Simple JavaScript program to show the current and five day weather forecast of a selected city",
         image: weather_dashboard,
         githubLink: "https://github.com/cguntur/weather_dashboard",
         deployLink: "https://cguntur.github.io/weather_dashboard/",
-    }
+    },
+    {
+        title: "Chamber Dashboard",
+        description: "Business Management plugins for WordPress",
+        image: cd_image,
+        githubLink: "https://github.com/orgs/Chamber-Dashboard/repositories",
+        deployLink: "https://wordpress.org/plugins/chamber-dashboard-business-directory/",
+    },
   ];
 
 export default projects;
