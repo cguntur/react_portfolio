@@ -20,5 +20,5 @@
 <img src="./src/assets/images/custom_react_portfolio.png" alt="Custom React Portfolio Screenshot" width="400"/>
 
 ## Working Example
-[View the website here](https://gcsdesign-blog-43fec2242915.herokuapp.com/)
+[View the website here](https://loquacious-faun-32bd1f.netlify.app/)
 
